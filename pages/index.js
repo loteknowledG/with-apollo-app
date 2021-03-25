@@ -15,7 +15,7 @@ const IndexPage = () => (
     <Submit />
     <PostList />
   </App>
-)
+) 
 
 export async function getStaticProps() {
   const apolloClient = initializeApollo()
